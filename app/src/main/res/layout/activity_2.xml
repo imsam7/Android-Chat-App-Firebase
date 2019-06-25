@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Enter your details"
+        android:textColor="#ff0000"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:id="@+id/signdetails"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/email_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="casual"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="casual"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:background="#ffffff"
+        android:onClick="chat"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Login"
+        android:textColor="#ff0000"
+        android:shadowColor="#ffffff"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"/>
+
+
+
+</LinearLayout>

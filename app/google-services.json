@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "520619692109",
+    "firebase_url": "https://airtelsarvesh-7.firebaseio.com",
+    "project_id": "airtelsarvesh-7",
+    "storage_bucket": "airtelsarvesh-7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520619692109:android:eb7c9868c32fe938",
+        "android_client_info": {
+          "package_name": "com.example.airtelsarvesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520619692109-hvf7ii39vnt4fc9toa0uva8o4sboj3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApRk95mkOUUCLnytXOzVArDlbn2SV6aPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520619692109-hvf7ii39vnt4fc9toa0uva8o4sboj3e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
